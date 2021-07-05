@@ -1,0 +1,55 @@
+body {
+    font-family: 'Sofia';
+    font-size: 22px;
+}
+.gradienthead{
+    background-image: linear-gradient(pink , red);
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid saddlebrown;
+    border-image: linear-gradient(rgba(194, 80, 51, 0.87) ,red);
+    box-shadow: 5px 5px 5px 5px rgb(208, 104, 211);
+    padding: 2px;
+
+}
+.second{
+    display: flex;
+}
+
+.doglife1{
+    display: flex;
+    
+    background-image: repeating-linear-gradient(beige , aqua);
+    padding: 50px;
+}
+#side{
+    margin-left: 10px;
+}
+.second img{
+    width: 20%;
+    border: 7px solid;
+    border-image: linear-gradient(rgba(194, 80, 51, 0.87) ,red);
+    border-image-slice: 2;
+}
+#thug{
+    margin-right: 5%;
+    width: 30%;
+}
+.second{
+    background-image: linear-gradient(salmon , magenta)
+}
+.none{
+    display: block;
+}
+#marg{
+    margin-right: 10%;
+    color: white;
+    margin-left: 5%;
+}
+.online{
+    background-image: linear-gradient(blue , pink );
+    font-size: larger;
+    color: whitesmoke;
+    border: 2px dotted pink;
+    text-decoration: none;
+}
